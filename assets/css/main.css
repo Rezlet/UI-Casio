@@ -534,6 +534,10 @@ h2.acitve {
     transform: translate(-50%, -50%);
 }
 
+.middle__brand-item:last-child img{
+    width: 100%;
+}
+
 .middle__brand-item:nth-child(3) img {
     position: absolute;
     left: 50%;
