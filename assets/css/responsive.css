@@ -1,9 +1,5 @@
 @media screen and (max-width: 1500px) {
 
-    .grid.wide {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
 
     .hero img {
         width: 100%;
@@ -57,5 +53,15 @@
     
     .middle__details-it{
         margin-top: 80px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .middle__image img {
+        width: 1200px;
+        height: 440px;
     }
 }
