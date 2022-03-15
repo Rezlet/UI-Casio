@@ -8,13 +8,6 @@
         
     }
 
-    
-    .hero__style-item p{
-        font-size: 18px;
-        bottom: 8.5%;
-        left: 43%;
-    }
-
     .middle{
         height: 440px;
     }
@@ -60,8 +53,481 @@
 
 
 @media screen and (max-width: 1200px) {
+    .hero img{
+        height: 400px;
+    }
+
     .middle__image img {
         width: 1200px;
         height: 440px;
+    }
+
+    .middle__details-style{
+        margin-top: 48px;
+    }
+
+    .middle__details-it{
+        margin-top: 40px;
+    }
+
+    .middle__details-it h1{
+        font-size: 42px;
+    }
+
+    .middle__details-name h5,
+    .middle__details-name h6{
+        font-size: 28px;
+    }
+
+    .middle__details-look{
+        font-size: 16px;
+    }
+
+    .middle__details-direction{
+        width: 30px;
+        height: 30px;
+    }
+
+    .hero__style-item p{
+        font-size: 16px;
+        bottom: 8.5%;
+
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header__content-search-container::after {
+        display: none;
+    }
+    
+    .navbar-item{
+        display: flex;
+    }
+
+    .navbar-item-container{
+        margin-left: 8px;
+    }
+
+    .navbar-item-container h5 {
+        font-weight: 800;
+    }
+
+    
+    .navbar-item-container h5 {
+        font-weight: 400;
+    }
+
+    .middle {
+        height: 360px;
+    }
+
+    .middle__image img{
+        width: 780px;
+        height: 360px;
+    }
+
+    .middle__details-look{
+        margin-bottom: 20px;
+        margin-top: 28px;
+    }
+
+    .middle__details-it h1{
+        font-size: 36px;
+    }
+
+    .middle__details-name h5, 
+    .middle__details-name h6{
+        font-size: 20px;
+    }
+
+    .middle__brand-item {
+        height: 70px;
+    }
+
+    .middle__brand-item img{
+        width: 50%;
+    }
+
+    .middle__brand-item:nth-child(3) img{
+        width: 95%;
+
+    }
+
+    .header__content {
+        height: 240px;
+    }
+
+    .header__content-container{
+        flex-direction: column;
+        height: 50%;
+        justify-content: space-between;
+    }
+
+    .header__content-logo{
+        justify-content: center;
+    }
+
+    .header__content-logo-item{
+        margin: 40px 24px;
+    }
+
+    .header__content-search{
+        flex-direction: column;
+    }
+
+    .header__content-search-container{
+        justify-content: center;
+    }
+
+    .header__content-btn{
+        right: 120px;
+        top: 0;
+    }
+
+    .header__content-list{
+        right: 228px;
+        top: 10px;
+    }
+
+    .header__content-search-container::after{
+        top: 13px;
+        left: 132px;
+    }
+
+    .header__content-info {
+        display: none;
+    }
+
+
+    .header__content-logo-item img{
+        width: 150px;
+    }
+    .header__content-item-container h6,
+    .header__content-item-container h5{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .header__content-item img{
+        width: 40px;
+        height: 48px;
+    }
+
+    .hero__style-item p{
+        font-size: 12px;
+        bottom: 10%;
+
+    }
+
+    .navbar__details{
+        display: none;
+    }
+
+    .navbar__menu{
+ 
+    }
+
+        
+    .navbar__info{
+        display: flex;
+    }
+
+    .navbar__item{
+        margin: auto 0 auto 32px;
+        display: flex;
+        color: #CACACA;
+    }
+
+    .navbar__item-container{
+        margin-left: 8px;
+    }
+
+    .navbar__item-container h5 {
+        font-weight: 800;
+    }
+
+    .navbar__item-container h6 {
+        font-weight: 300;
+    }
+
+    .footer__news{
+        flex-direction: column;
+    }
+
+    .footer__news-item-main{
+        font-size: 20px;
+    }
+
+    .footer__news-item-content{
+        font-size: 18px;
+    }
+
+    .footer__news-item-date{
+        font-size: 16px;
+    }
+
+    .footer__email-info img{
+        margin: auto 28px auto 0;
+        width: 65px;
+        height: 65px;
+    }
+
+    .footer__email-sales h5{
+        font-size: 16px;
+    }
+
+    .footer__email-sales h6{
+        font-size: 12px;
+    }
+
+    .header__content-input {
+        width: 300px;
+    }
+
+    .footer__creator-item h1{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .footer__creator-content{
+        font-size: 18px;
+    }
+
+    .footer__creator-content img {
+        width: 12px;
+        height: 16px;
+    }
+
+    .footer__logo-details{
+        font-size: 12px;
+    }
+
+    .footer__end-item{
+        font-size: 12px;
+    }
+
+    .footer__logo-list {
+        flex-direction: column;
+    }
+
+    .footer__logo-item:first-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__logo-item:last-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__logo-item{
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px){
+    .header__content-list{
+        display: none;
+    }
+
+    .hero img {
+        height: 300px;
+    }
+
+    .hero__commit-content h6{
+        font-size: 8px;
+    }
+    .hero__commit-item img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .hero__style-item p{
+        font-size: 10px;
+        bottom: 11%;
+    }
+
+    .middle__image img{
+        width: 660px;
+        height: 300px;
+
+    }
+
+    .middle__details-status{
+        font-size: 24px;
+    }
+    
+    .middle__details-it h1{
+        font-size: 32px;
+    }
+
+    .middle__details-name h5, .middle__details-name h6{
+        font-size: 16px;
+    }
+
+    .middle__details-price h6,
+    .middle__details-price h5{
+        font-size: 14px;
+
+    }
+
+    .middle {
+        height: 300px;
+    }
+    
+    .middle__details-look {
+        font-size: 14px;
+        margin: 12px 0;
+    }
+
+    .middle__details-direction {
+        width: 20px;
+        height: 20px;
+    }
+
+    .middle__details-name{
+        margin-top: 24px;
+    }
+
+    .middle__details-price{
+        margin-top: 16px;
+    }
+
+    
+    .footer__email-container {
+        flex-direction: column;
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .header__content-list {
+        display: none;
+    }
+
+    .header__content-btn{
+        right: 30px;
+    }
+
+    .header__top-sell {
+        font-size: 8px;
+    }
+    .navbar__menu{
+        width: max-content;
+    }
+    .navbar__item img {
+        width: 20px;
+        height: 30px;
+        margin: auto 0;
+    }
+
+    .navbar__item:last-child img {
+        width: 44px;
+        height: 36px;
+        margin: auto 0;
+    }
+
+    
+    .navbar__item-container h6{
+        font-size: 7px;
+    }
+
+    .header__top-item {
+        font-size: 10px;
+    }
+
+    .hero__commit-content{
+        margin: auto 6px auto 0;
+    }
+
+    .hero__commit-content h5{
+        font-size: 8px;
+    }
+
+    .hero__commit-item img{
+        width: 25px;
+        height: 25px;
+        margin: auto 6px auto 0;
+    }
+
+    .hero__style-item p {
+        font-size: 6px;
+        bottom: 14%;
+        letter-spacing: 1px ;
+    }
+
+    .middle {
+        height: 250px;
+    }
+
+    .middle__image img {
+        width: 500px;
+        height: 250px;
+    }
+
+    .middle__details-style::after{
+        width: 185px;
+    }
+
+    .middle__details-status{
+        font-size: 20px;
+    }
+
+    .middle__details-it h1{
+        font-size: 28px;
+    }
+
+    .middle__details-name h5,
+    .middle__details-name h6 {
+        font-size: 12px;
+    }
+
+    .middle__details-price h6,
+    .middle__details-price h5{
+        font-size: 10px;
+    }
+
+    .middle__details-look{
+        font-size: 12px;
+    }
+
+    .middle__details-it {
+        margin-top: 28px;
+    }
+
+    .middle__details-name {
+        margin-top: 16px;
+    }
+
+    .middle__details-price{
+        margin-top: 12px;
+    }
+
+    .middle__details-direction{
+        width: 15px;
+        height: 15px;
+    }
+
+    .middle__details-style {
+        margin-top: 28px;
+    }
+
+    .product__status-content {
+        font-size: 32px;
+    }
+
+    .footer__email-info img{
+        height: 40px;
+        width: 40px;
+        margin-right: 12px;
+    }
+
+    .footer__logo-img{
+        margin-right: 12px;
     }
 }

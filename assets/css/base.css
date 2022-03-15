@@ -98,3 +98,29 @@ html{
         max-width: 980px;        
     }
 }
+
+@media screen and (max-width: 980px) {
+    .grid.wide{
+        max-width: 720px;
+    }
+
+
+    .m-w {
+        flex:  97.5%;
+        max-width: 97.5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .grid.wide {
+        max-width: 580px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .grid.wide {
+        max-width: 400px;
+    }
+
+    
+}
