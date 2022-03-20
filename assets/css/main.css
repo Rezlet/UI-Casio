@@ -391,6 +391,14 @@
     min-width: 285px;
     position: relative;
 }
+.navbar__sub-container> p{
+    transition: all .5s;
+
+}
+
+.navbar__sub-container> p:hover  {
+    color: #ec1c24;
+}
 
 .navbar__sub-container::after{
     content: "";
