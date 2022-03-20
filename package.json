@@ -1,0 +1,24 @@
+{
+  "name": "casio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rezlet/UI-Casio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rezlet/UI-Casio/issues"
+  },
+  "homepage": "https://github.com/Rezlet/UI-Casio#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.0",
+    "jquery": "^3.6.0",
+    "slick-slider": "^1.8.2"
+  }
+}
